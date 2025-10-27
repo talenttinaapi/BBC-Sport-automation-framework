@@ -1,0 +1,18 @@
+{
+  "name": "bbc-frontend-automation-assessment",
+  "version": "1.0.0",
+  "description": "Frontend automation for BBC Sport using Playwright + Cucumber (TypeScript)",
+  "scripts": {
+    "test": "cucumber-js --require-module ts-node/register --require features/steps/**/*.ts --format progress",
+    "test:headed": "PLAYWRIGHT_HEADLESS=false npm test"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^9.0.0",
+    "playwright": "^1.35.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.6.2",
+    "@types/node": "^20.5.1"
+  }
+}
