@@ -1,0 +1,22 @@
+{
+  "name": "bbc-sport-automation-framework",
+  "version": "1.0.0",
+  "description": "This project provides automated end-to-end testing for BBC Sport website using Behavior-Driven Development (BDD) approach with Cucumber, TypeScript, and Playwright.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/talenttinaapi/BBC-Sport-automation-framework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/talenttinaapi/BBC-Sport-automation-framework/issues"
+  },
+  "homepage": "https://github.com/talenttinaapi/BBC-Sport-automation-framework#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.9.1"
+  }
+}
