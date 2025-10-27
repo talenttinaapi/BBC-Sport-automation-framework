@@ -1,4 +1,4 @@
-name: Frontend Automation CI
+name: BBC Sport Automation Tests
 
 on:
   push:
